@@ -22,8 +22,10 @@ for(int i=0;i<size;i++) {
 System.out.println(Arrays.toString(emp));
 
 for(Employee e:emp) {
-	System.out.println(e);
-}
+//	if(e.dept.equalsIgnoreCase("hr")){
+	if(e.salary>56000) {
+	System.out.println(e.name+" "+e.salary);
+}}
 
 	}
 
