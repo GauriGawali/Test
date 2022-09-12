@@ -23,8 +23,8 @@ void sorting(int a[]) {
 	//void display(int a[]) {
 
 	System.out.println(Arrays.toString(a));
-	System.out.println("second highest element:"+a[len-2]);
-	System.out.println("third minimum:0"+a[2]);
+//	System.out.println("second highest element:"+a[len-2]);
+	//System.out.println("third minimum:0"+a[2]);
 }
 	public static void main(String[] args) {
 		Scanner sc=new Scanner (System.in);
