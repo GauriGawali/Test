@@ -16,7 +16,7 @@ public class RevArray {
 			a[i]=sc.nextInt();
 		}
 		System.out.println("Print elements in reverse order");
-		for(int i=size-1;i>0;i--) {
+		for(int i=size-1;i>=0;i--) {
 			System.out.println(a[i]+" ");
 		}
 	}

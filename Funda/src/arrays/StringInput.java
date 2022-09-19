@@ -1,11 +1,12 @@
 package arrays;
 
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class StringInput {
 
 	public static void main(String[] args) {
-	String arr[]= {"java","is" ,"very","good" ,"language"};
+	/*String arr[]= {"java","is" ,"very","good" ,"language"};
 	
 	for(int i=0;i<arr.length;i++) 
 	{
@@ -15,15 +16,17 @@ public class StringInput {
 	 {
 		for(int j=arr[i].length()-1;j>=0;j--)
 		{
-			System.out.println(arr[i].charAt(j));
+			System.out.print(arr[i].charAt(j));
 		}
 	 	System.out.println();
-	 }
+	 }*/
 	
-
+Scanner sc=new Scanner(System.in);
+String str=sc.next();
+//String outputstr="";
 	
 	
-	char ch[]= {'a','B','4','c','D'};
+	char ch[]= str.toCharArray();
 System.out.println(Arrays.toString(ch));
 for(int i=0;i<ch.length;i++) 
 {
@@ -35,7 +38,9 @@ else if(ch[i]>='a'  && ch[i]<='z')
 	ch[i]=(char)(ch[i]-32);
 
 }
-System.out.println(Arrays.toString(ch));
+String outputstr = String. valueOf(ch);
+System.out.println(outputstr);
+
 	
 	}
 	}

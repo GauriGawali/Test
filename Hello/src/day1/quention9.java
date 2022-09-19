@@ -1,4 +1,5 @@
 package day1;
+//9. Write a Java program to enter P, T, R and calculate Simple Interest. 
 
 public class quention9 {
 

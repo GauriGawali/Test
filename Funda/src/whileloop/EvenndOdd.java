@@ -6,18 +6,18 @@ public class EvenndOdd {
 
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
-		System.out.println("enter the limit");
+		System.out.println("enter a limit");
 		int limit=sc.nextInt();
-		int c=0;
-		while(c<=limit)
-		{
+		int c=1;
+		int even;
+		while(c<=limit) {
 			if(c%2==0)
-			{
+				{
 				System.out.println(c);
-			}
-			c++;
+				
+				}
+			c++;	
 		}
-		System.out.println("All even no done");
-	}
+		}
 
 }

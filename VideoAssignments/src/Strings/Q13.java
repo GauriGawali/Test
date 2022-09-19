@@ -18,7 +18,7 @@ public class Q13 {
 		sr=sr+st.charAt(0);
 		sr=sr+".";
 		for(int i=0;i<st.length();i++) {
-			if(st.charAt(i)== ' ' && st.charAt((i+1)!= ' ' && (i+1)<st.length()){
+			if(st.charAt(i)== ' ' && st.charAt((i+1))!= ' ' && (i+1)<st.length()){
 				sr=(sr+st.charAt(i+1)).toUpperCase();
 				sr=sr+".";
 				

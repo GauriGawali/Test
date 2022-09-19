@@ -12,7 +12,7 @@ public class Print1to5 {
 		int limit=sc.nextInt();
 		while(c<=limit)
 		{
-			System.out.print(c);
+			System.out.print(c+", ");
 			c++;
 		}
 		System.out.print("Done");

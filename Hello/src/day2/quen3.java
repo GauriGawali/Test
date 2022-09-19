@@ -34,7 +34,7 @@ public class quen3 {
 		
 */
 		
-		char ch='h';
+		char ch='o';
 		switch(ch) {
 		case 'a':
 		case 'e':

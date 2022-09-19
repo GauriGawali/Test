@@ -11,7 +11,7 @@ public class MaxValue {
 	 int a[]=new int[size];
 	 System.out.println("length of arrays"+a.length);
 	 System.out.println("Enter Array elements");
-	 for(int i=0;i<a.length-1;i++) {
+	 for(int i=0;i<a.length;i++) {
 		 a[i]=sc.nextInt();
 	 }
 	

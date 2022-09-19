@@ -25,8 +25,9 @@ public class SimpleCal {
 	    case 3: int mul=num1*num2;
 		     System.out.println("num1*num2:=" +mul);
 		     break;
-		case 4: int div=num1/num2;
-		     System.out.println("do not enter num2 as zero");
+		case 4: System.out.println("do not enter num2 as zero");
+			int div=num1/num2;
+		     
 		     System.out.println("division of num1/num2:=" +div);
 		}
 		System.out.println("do you want to continue"+('y'/'n'));

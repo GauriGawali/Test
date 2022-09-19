@@ -9,6 +9,7 @@ public class Q2EvenOdd {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter the number");
 		int no=sc.nextInt();
+		System.out.println("enter choice");
 		switch(no)
 		{
 		case 1: if(no%2==0)

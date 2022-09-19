@@ -69,15 +69,12 @@ public class Q21 {
 	        return (ch >= '0' && ch <= '9');
 	    
 
-
-
-}
 	    
 	    
 	    
-	    ]
+	    }
+	    }
 
 	
 
-}
-\41 mnbvcxz\
+

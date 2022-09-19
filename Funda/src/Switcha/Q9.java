@@ -10,7 +10,7 @@ public class Q9 {
 
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
-		System.out.println("Enter the choice 1.area of circle,2.area of Square, 3.Area of Right angle Triangle, 4.Rectangle circumference");
+System.out.println("Enter the choice 1.area of circle,2.area of Square, 3.Area of Right angle Triangle, 4.Rectangle circumference");
 		int ch=sc.nextInt();
 		switch (ch)
 		{

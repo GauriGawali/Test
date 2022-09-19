@@ -8,30 +8,30 @@ public class quen6 {
 //	to 7 it should display "error, day does not exist".
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub/*
-/*Scanner sc=new Scanner(System.in);
+Scanner sc=new Scanner(System.in);
 System.out.println("Enter the input between 1 to 7");
 int Day=sc.nextInt();
 switch(Day)
 {
-case'1':
+case 1:
 	System.out.println("Monday");
 	break;
-case'2':
+case 2:
 	System.out.println("Tuesday");
 	//break;
-case '3':
+case 3:
 	System.out.println("Wednesday");
 	//break;
-case '4':
+case 4:
 	System.out.println("Thursday");
 	//break;
-case '5':
+case 5:
 	System.out.println("Friday");
 	//break;
-case'6':
+case 6:
 	System.out.println("Saturday");
 	//break;
-case'7':
+case 7:
 	System.out.println("Sunday");
     break;
 
@@ -45,10 +45,10 @@ default:
 }
 }
 }
-}
-	*/
+
+	
 		
-		   Scanner in = new Scanner(System.in);
+		/*   Scanner in = new Scanner(System.in);
 	        System.out.print("Input number: ");
 	        int day = in.nextInt();
 
@@ -69,5 +69,5 @@ default:
         }
 
         return dayName;
-    }
+    }*/
 }

@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class PracticeArray {
 
 	public static void main(String[] args) {
-		/*Scanner sc=new Scanner(System.in);
+	/*	Scanner sc=new Scanner(System.in);
 		System.out.println("Enter array elements");
 		
 		int a[]=new int [5];
@@ -14,9 +14,9 @@ public class PracticeArray {
 			a[i]=sc.nextInt();
 		}
 
-	}*/
-      /* min number of array
-       * Scanner sc=new Scanner(System.in);
+	}
+      */ //min number of array
+        Scanner sc=new Scanner(System.in);
        System.out.println("Enter size of array");
        int size=sc.nextInt();
 	   int a[]=new int[size];
@@ -34,8 +34,8 @@ public class PracticeArray {
 			min=a[i];
 		//System.out.print(a[i] +" ");
 	}
-	System.out.println("Minimum value from array" +min); */ 
-	
+	System.out.println("Minimum value from array" +min);  
+	/*
 		Scanner sc=new Scanner(System.in);
 		System.out.println(" enter size of array ");
 		int size=sc.nextInt();
@@ -53,4 +53,5 @@ public class PracticeArray {
 				System.out.print(a[i] +" ");
 		}
 		
-	} }
+	} */}
+}

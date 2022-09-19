@@ -10,11 +10,12 @@ public class ArraysMain {
 		for(int i=0; i<size; i++)
 		{
         total = total + a[i];
-        System.out.println("Total is"+total);
+        
 		}
-		
+		System.out.println("Total is :"+total);
         float avg=total/a.length;
-        System.out.println("Average of num is:"+avg);}
+        System.out.println("Average of num is:"+avg);
+        }
 		
 	// System.out.println(Arrays.toString(a));
 	public static void main(String[] args) {

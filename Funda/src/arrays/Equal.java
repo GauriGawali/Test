@@ -24,6 +24,8 @@ public class Equal {
 		int a1[]= {1,2,3,4,5};
 		int a2[]= {1,2,3,4,5};
 		Equal e1=new Equal();
+		e1.equalCheck(a1, a2);
+	
 	}
 
 }

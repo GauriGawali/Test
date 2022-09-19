@@ -6,6 +6,9 @@ public class Q2 {
 		String s1="hello";
 		s1.concat("World");
 		System.out.println(s1);
+		StringBuffer s= new StringBuffer("hello");
+		s.append(s1);
+		System.out.println(s);
 	}
 
 }
